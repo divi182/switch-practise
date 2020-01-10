@@ -19,14 +19,16 @@
       --rotate: 0;
       transform: translateX(var(--x)) translateY(var(--y))rotateY(var(--rotateX)) rotate(var(--rotate));
       transition: transform 0.2s;
+      opacity: 0.5;
     }
 
-    .background-jyoti {
-      background-image: url("background-jyoti.jpg");
+    body {
+      background-image: url("field-run.jpg");
+      background-size: cover;
     }
   </style>
-  <div class="background-jyoti"></div>
-  <img width="200" src="./0219437001578659632_jyoti.png" alt="Turt" class="turt">
+
+  <img width="400" src="./0219437001578659632_jyoti.png" alt="Turt" class="turt">
   <script>
     const turtle = document.querySelector('.turt');
     let x = 0;
